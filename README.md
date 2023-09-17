@@ -22,34 +22,34 @@ The evaluation of the models is done by two metrics namely Mean Squared Error(MS
 Results:
 
 1] Linear regression:
-   MSE=1.2719
+   MSE=1.2719,
    MAE=0.7188
    
 2] Lasso regression: 
-   MSE=2.3060
+   MSE=2.3060,
    MAE=1.1487
    
 3] Lasso regression after tunning:
-   MSE=1.2719
-   MAE=0.7188
+   MSE=1.2719,
+   MAE=0.7188,
    params {'alpha': 0.001, 'fit_intercept': True, 'max_iter': 100, 'positive': False}
    
 4] Ridge regression:
-   MSE=1.2719
+   MSE=1.2719,
    MAE=0.7188
    
 5] Ridge regression after tunning:
-   MSE 1.2719
-   MAE 0.7188
+   MSE 1.2719,
+   MAE 0.7188,
    params {'alpha': 1, 'fit_intercept': True, 'max_iter': 100, 'positive': False, 'tol': 0.0001}
    
 6] Polynomial regression:
-    MSE 1.2038
+    MSE 1.2038,
     MAE 0.6866
     
 7] Polynomial regression after tunning:
-   MSE 1.1046
-   MAE 0.6512
+   MSE 1.1046,
+   MAE 0.6512,
    params {'polynomialfeatures__degree': 4}
 
    
