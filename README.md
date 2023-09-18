@@ -42,14 +42,12 @@ This project focuses on exploratory data analysis (EDA) and regression modeling 
 
 ## Regression Models
 ### 1. Linear Regression
-- **Objective**: Prediction of TMIN
 - **Model Performance**:
-  - Mean Absolute Error (MAE): [Value]
-  - Root Mean Squared Error (RMSE): [Value]
-  - R-squared (R²): [Value]
+  - Mean Absolute Error (MAE): MAE: 2.5208005685605746
+  - Root Mean Squared Error (RMSE): RMSE: 3.342600803775712
+  - R-squared (R²): R-squared (R²): 0.8769824407994815
 
 ### 2. SGD Regression
-- **Objective**: Predicting [Explain the prediction task]
 - **Model Performance**:
   - Best Hyperparameters: {'alpha': 0.01, 'eta0': 1.0, 'learning_rate': 'optimal', 'max_iter': 2000, 'tol': 0.0001}
   - MAE: 2.5403256035426374
@@ -57,7 +55,6 @@ This project focuses on exploratory data analysis (EDA) and regression modeling 
   - R-squared (R²): 0.8759336772392798
 
 ### 3. Polynomial Regression
-- **Objective**: Predicting [Explain the prediction task]
 - **Model Performance**:
   - Mean Squared Error (MSE): 9.680385014483944
   - R-squared (R²): 0.8934163202310743
